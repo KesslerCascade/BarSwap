@@ -15,9 +15,6 @@
       "kessercascade.barswap.fabric.client.BarSwapFabricClient"
     ]
   },
-  "mixins": [
-    "barswap.mixins.json"
-  ],
   "depends": {
     "fabricloader": ">=0.19.2",
     "minecraft": "~1.21.11",

@@ -24,5 +24,3 @@ versionRange = "[1.21.11,)"
 ordering = "NONE"
 side = "CLIENT"
 
-[[mixins]]
-config = "barswap.mixins.json"
