@@ -24,12 +24,5 @@ versionRange = "[1.21.1,)"
 ordering = "NONE"
 side = "CLIENT"
 
-[[dependencies.barswap]]
-modId = "architectury"
-type = "required"
-versionRange = "[13.0.8,)"
-ordering = "AFTER"
-side = "CLIENT"
-
 [[mixins]]
 config = "barswap.mixins.json"

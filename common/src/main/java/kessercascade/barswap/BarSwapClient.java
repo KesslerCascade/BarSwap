@@ -2,8 +2,6 @@ package kessercascade.barswap;
 
 import com.mojang.blaze3d.platform.InputConstants;
 import it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap;
-import net.fabricmc.api.EnvType;
-import net.fabricmc.api.Environment;
 import net.minecraft.client.KeyMapping;
 import net.minecraft.client.player.LocalPlayer;
 import net.minecraft.network.protocol.game.ServerboundContainerClickPacket;
@@ -11,7 +9,6 @@ import net.minecraft.world.inventory.ClickType;
 import net.minecraft.world.item.ItemStack;
 import org.lwjgl.glfw.GLFW;
 
-@Environment(EnvType.CLIENT)
 public final class BarSwapClient {
     public static final KeyMapping SWAP_HOTBAR_KEY = new KeyMapping(
         "key.barswap.swap_hotbar",
