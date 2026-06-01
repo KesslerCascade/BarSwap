@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "barswap"
+version = "${version}"
+displayName = "BarSwap"
+description = '''
+Swap your hotbar with the bottom row of your inventory using a keybind.
+'''
+
+[[dependencies.barswap]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.barswap]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.barswap]]
+modId = "architectury"
+type = "required"
+versionRange = "[13.0.8,)"
+ordering = "AFTER"
+side = "CLIENT"
+
+[[mixins]]
+config = "barswap.mixins.json"

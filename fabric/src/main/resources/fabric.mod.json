@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "barswap",
+  "version": "${version}",
+  "name": "BarSwap",
+  "description": "Swap your hotbar with the bottom row of your inventory using a keybind.",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "kessercascade.barswap.fabric.client.BarSwapFabricClient"
+    ]
+  },
+  "mixins": [
+    "barswap.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "architectury": ">=13.0.8",
+    "fabric-api": "*"
+  }
+}
