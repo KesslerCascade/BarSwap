@@ -13,14 +13,14 @@ Swap your hotbar with the bottom row of your inventory using a keybind.
 [[dependencies.barswap]]
 modId = "neoforge"
 type = "required"
-versionRange = "[26.1,)"
+versionRange = "[26.1.1,)"
 ordering = "NONE"
 side = "CLIENT"
 
 [[dependencies.barswap]]
 modId = "minecraft"
 type = "required"
-versionRange = "[26.1,)"
+versionRange = "[26.1.1,)"
 ordering = "NONE"
 side = "CLIENT"
 
