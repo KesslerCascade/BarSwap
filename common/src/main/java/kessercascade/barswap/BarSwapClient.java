@@ -7,7 +7,7 @@ import net.minecraft.client.player.LocalPlayer;
 import net.minecraft.network.HashedStack;
 import net.minecraft.network.protocol.game.ServerboundContainerClickPacket;
 import net.minecraft.resources.Identifier;
-import net.minecraft.world.inventory.ClickType;
+import net.minecraft.world.inventory.ContainerInput;
 import org.lwjgl.glfw.GLFW;
 
 public final class BarSwapClient {
@@ -28,7 +28,7 @@ public final class BarSwapClient {
                 player.inventoryMenu.getStateId(),
                 (short)(27 + i),
                 (byte)i,
-                ClickType.SWAP,
+                ContainerInput.SWAP,
                 new Int2ObjectOpenHashMap<HashedStack>(),
                 HashedStack.EMPTY
             ));
