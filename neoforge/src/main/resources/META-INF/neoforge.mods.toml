@@ -1,11 +1,12 @@
 modLoader = "javafml"
 loaderVersion = "[4,)"
-license = "MIT"
+license = "BSD"
 
 [[mods]]
 modId = "barswap"
 version = "${version}"
 displayName = "BarSwap"
+authors = "KesslerCascade"
 description = '''
 Swap your hotbar with the bottom row of your inventory using a keybind.
 '''
