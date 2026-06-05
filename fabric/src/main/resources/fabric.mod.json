@@ -5,10 +5,10 @@
   "name": "BarSwap",
   "description": "Swap your hotbar with the bottom row of your inventory using a keybind.",
   "authors": [
-    "Me!"
+    "KesslerCascade"
   ],
   "contact": {},
-  "license": "MIT",
+  "license": "BSD",
   "environment": "client",
   "entrypoints": {
     "client": [
